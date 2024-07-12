@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /freelancing
+permalink: /freelancing/
 title: "Freelancing 🔧"
 author_profile: true
 ---
