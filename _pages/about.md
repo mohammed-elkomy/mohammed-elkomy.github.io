@@ -19,5 +19,5 @@ I aspire to become a regionally renowned professor in this fast-growing area and
 
 <div style="text-align: center;">
   <img src="/images/thank white.gif" alt="Thanks animation" style="width: 50%;"> <br/>
-    Evolving 'Thank you' in Fourier spectral components
+    Evolving 'Thank you' in Fourier spectral components 🔥!
 </div>
