@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /dedication
 title: "Dedication to those who deserve 💐"
 author_profile: true
