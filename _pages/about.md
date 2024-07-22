@@ -12,8 +12,8 @@ I am Mohammed Elkoumy a teaching and research Assistant at the Computer Engineer
 
 I defended my Master's degree in November 2023,
 specializing in Information Retrieval and Question Answering, at the Computer Engineering Department of Tanta University.
-My research was supervised by Dr [Moustafa F. Alzantot](https://scholar.google.com.eg/citations?user=AusbFkQAAAAJ&hl=en "Moustafa F. Alzantot")
-And Prof [Amany Sarhan](https://scholar.google.com/citations?user=zonuuE0AAAAJ&hl=en "Amany Sarhan").
+My research was supervised by Dr. [Moustafa F. Alzantot](https://scholar.google.com.eg/citations?user=AusbFkQAAAAJ&hl=en "Moustafa F. Alzantot")
+and Prof. [Amany Sarhan](https://scholar.google.com/citations?user=zonuuE0AAAAJ&hl=en "Amany Sarhan").
 
 My academic career began after completing my military service in October 2020.
 Prior to this, I graduated with honors from the same department in August 2018, ranking first in a cohort of over 160 students.
