@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 I am Mohammed El-Koumy a teaching and research Assistant at the Computer Engineering Department at Tanta University, specializing in Information Retrieval and Natural Language Processing.
-<ins>**I am currently seeking a PhD opportunity to conduct research on grounding and reasoning in LLMs, especially their interplay with knowledge graphs and semantic search.**</ins>
+<ins>**I am actively seeking a PhD opportunity to conduct research on grounding and reasoning in LLMs, especially their interplay with knowledge graphs and semantic search.**</ins>
 
 I defended my Master's degree in November 2023,
 specializing in Information Retrieval and Question Answering, at the Computer Engineering Department of Tanta University.
