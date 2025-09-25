@@ -4,6 +4,7 @@ permalink: /freelancing/
 title: "Freelancing 🔧"
 author_profile: true
 ---
+📣 Update: I'm relocating to the US to start my graduate studies, and my freelancing services will be *unavailable* there starting from September 2025. 
 
 I have three years of experience working on Fiverr freelancing platform as a Level-Two Freelance Data Scientist and Python Developer.
 I leverage my skills in Computer Vision, Natural Language Processing, and Python automation to facilitate the lives of my clients on Fiverr.
