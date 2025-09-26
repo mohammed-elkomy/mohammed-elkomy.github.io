@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Mohammed El-Koumy"
+title                    : "Mohammed ElKoumy"
 title_separator          : "-"
-name                     : &name "Mohammed Alaa El-Koumy"
+name                     : &name "Mohammed Alaa ElKoumy"
 description              : &description "Teaching and Research Assistant at Tanta University"
 url                      : https://mohammed-elkomy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,12 +23,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Mohammed Elkoumy"
-  pronouns         : # example: "she/her"  
-  bio              : "Teaching and Research Assistant"
-  location         : "Egypt"
-  employer         : "Tanta University"
-  uri              : # URL
-  email            : "mohammed.a.elkomy@f-eng.tanta.edu.eg"
+  pronouns         : # example: "she/her"
+  bio              : "Computer Science PhD student at RPI, Research and Teaching Assistant"
+  location         : "Troy, New York, United States"
+  employer         : "Rensselaer Polytechnic Institute"
+  uri              :
+  email            : "elkoum@rpi.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -44,8 +44,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "mohammed-elkomy"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   bluesky          : # Username # Replace this with you Bluesky username
@@ -212,6 +212,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+
 
 
 # Defaults

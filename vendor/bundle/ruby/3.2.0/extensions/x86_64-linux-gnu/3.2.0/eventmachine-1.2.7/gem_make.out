@@ -1,117 +1,19 @@
-current directory: /Core/Academic/Personal Website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
 /usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
-checking for -lcrypto... yes
-checking for -lssl... yes
-checking for openssl/ssl.h... yes
-checking for openssl/err.h... yes
-checking for rb_trap_immediate in ruby.h,rubysig.h... no
-checking for rb_thread_blocking_region()... no
-checking for rb_thread_call_without_gvl() in ruby/thread.h... yes
-checking for rb_thread_fd_select()... yes
-checking for rb_fdset_t in ruby/intern.h... yes
-checking for rb_wait_for_single_fd()... yes
-checking for rb_enable_interrupt()... no
-checking for rb_time_new()... yes
-checking for inotify_init() in sys/inotify.h... yes
-checking for writev() in sys/uio.h... yes
-checking for pipe2() in unistd.h... yes
-checking for accept4() in sys/socket.h... yes
-checking for SOCK_CLOEXEC in sys/socket.h... yes
-checking for sys/event.h... no
-checking for epoll_create() in sys/epoll.h... yes
-checking for clock_gettime()... yes
-checking for CLOCK_MONOTONIC_RAW in time.h... yes
-checking for CLOCK_MONOTONIC in time.h... yes
-CXXFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=BUILDDIR=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=BUILDDIR=/usr/src/ruby3.2-3.2.3-1ubuntu0.24.04.6 -Wall -Wextra -Wno-deprecated-declarations -Wno-ignored-qualifiers -Wno-unused-result -Wno-address
 creating Makefile
 
-current directory: /Core/Academic/Personal Website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext
-make DESTDIR\= sitearchdir\=./.gem.20250925-24740-tm1jor sitelibdir\=./.gem.20250925-24740-tm1jor clean
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250925-35580-11quk0 sitelibdir\=./.gem.20250925-35580-11quk0 clean
 
-current directory: /Core/Academic/Personal Website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext
-make DESTDIR\= sitearchdir\=./.gem.20250925-24740-tm1jor sitelibdir\=./.gem.20250925-24740-tm1jor
-compiling binder.cpp
-compiling cmain.cpp
-compiling ed.cpp
-ed.cpp: In member function ‘void ConnectionDescriptor::_WriteOutboundData()’:
-ed.cpp:1168:28: warning: ignoring return value of ‘std::_Deque_iterator<_Tp, _Ref, _Ptr>::reference std::_Deque_iterator<_Tp, _Ref, _Ptr>::operator*() const [with _Tp = ConnectionDescriptor::OutboundPage; _Ref = ConnectionDescriptor::OutboundPage&; _Ptr = ConnectionDescriptor::OutboundPage*; reference = ConnectionDescriptor::OutboundPage&]’, declared with attribute ‘nodiscard’ [-Wunused-result]
- 1168 |                         *op++;
-      |                            ^~
-In file included from /usr/include/c++/13/deque:66,
-                 from project.h:29,
-                 from ed.cpp:20:
-/usr/include/c++/13/bits/stl_deque.h:181:7: note: declared here
-  181 |       operator*() const _GLIBCXX_NOEXCEPT
-      |       ^~~~~~~~
-compiling em.cpp
-em.cpp: In member function ‘void EventMachine_t::SignalLoopBreaker()’:
-em.cpp:316:21: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
-  316 |         (void)write (LoopBreakerWriter, "", 1);
-      |               ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
-em.cpp: In member function ‘void EventMachine_t::_ReadLoopBreaker()’:
-em.cpp:1109:20: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
- 1109 |         (void)read (LoopBreakerReader, buffer, sizeof(buffer));
-      |               ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-compiling kb.cpp
-kb.cpp: In member function ‘virtual void KeyboardDescriptor::Read()’:
-kb.cpp:77:20: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
-   77 |         (void)read (GetSocket(), &c, 1);
-      |               ~~~~~^~~~~~~~~~~~~~~~~~~~
-compiling page.cpp
-compiling pipe.cpp
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250925-35580-11quk0 sitelibdir\=./.gem.20250925-35580-11quk0
+compiling mapper.cpp
 compiling rubymain.cpp
-rubymain.cpp: In function ‘void event_callback_wrapper(uintptr_t, int, const char*, long unsigned int)’:
-rubymain.cpp:220:26: warning: ‘VALUE ruby::backward::cxxanyargs::rb_rescue(VALUE (*)(...), VALUE, VALUE (*)(...), VALUE)’ is deprecated: Use of ANYARGS in this function is deprecated [-Wdeprecated-declarations]
-  220 |                 rb_rescue((VALUE (*)(ANYARGS))event_callback, (VALUE)&e, (VALUE (*)(ANYARGS))event_error_handler, Qnil);
-      |                 ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from /usr/include/ruby-3.2.0/ruby/internal/anyargs.h:83,
-                 from /usr/include/ruby-3.2.0/ruby/ruby.h:27,
-                 from /usr/include/ruby-3.2.0/ruby.h:38,
-                 from em.h:24,
-                 from project.h:168,
-                 from rubymain.cpp:20:
-/usr/include/ruby-3.2.0/ruby/backward/cxxanyargs.hpp:260:1: note: declared here
-  260 | rb_rescue(type *q, VALUE w, type *e, VALUE r)
-      | ^~~~~~~~~
-compiling ssl.cpp
-ssl.cpp: In constructor ‘SslContext_t::SslContext_t(bool, const std::string&, const std::string&, const std::string&, const std::string&, const std::string&, int)’:
-ssl.cpp:216:51: warning: ‘DH* PEM_read_bio_DHparams(BIO*, DH**, int (*)(char*, int, int, void*), void*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
-  216 |                         dh = PEM_read_bio_DHparams(bio, NULL, NULL, NULL);
-      |                              ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
-In file included from /usr/include/openssl/ssl.h:36,
-                 from project.h:119,
-                 from ssl.cpp:23:
-/usr/include/openssl/pem.h:469:1: note: declared here
-  469 | DECLARE_PEM_rw_attr(OSSL_DEPRECATEDIN_3_0, DHparams, DH)
-      | ^~~~~~~~~~~~~~~~~~~
-ssl.cpp:227:32: warning: ‘void DH_free(DH*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
-  227 |                         DH_free(dh);
-      |                         ~~~~~~~^~~~
-In file included from /usr/include/openssl/dsa.h:51,
-                 from /usr/include/openssl/x509.h:37,
-                 from /usr/include/openssl/ssl.h:31:
-/usr/include/openssl/dh.h:204:28: note: declared here
-  204 | OSSL_DEPRECATEDIN_3_0 void DH_free(DH *dh);
-      |                            ^~~~~~~
-ssl.cpp:243:64: warning: ‘EC_KEY* EC_KEY_new_by_curve_name(int)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
-  243 |                                 ecdh = EC_KEY_new_by_curve_name(nid);
-      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
-In file included from /usr/include/openssl/x509.h:33:
-/usr/include/openssl/ec.h:998:31: note: declared here
-  998 | OSSL_DEPRECATEDIN_3_0 EC_KEY *EC_KEY_new_by_curve_name(int nid);
-      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
-ssl.cpp:254:44: warning: ‘void EC_KEY_free(EC_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
-  254 |                                 EC_KEY_free(ecdh);
-      |                                 ~~~~~~~~~~~^~~~~~
-/usr/include/openssl/ec.h:1003:28: note: declared here
- 1003 | OSSL_DEPRECATEDIN_3_0 void EC_KEY_free(EC_KEY *key);
-      |                            ^~~~~~~~~~~
-linking shared-object rubyeventmachine.so
+linking shared-object fastfilereaderext.so
 
-current directory: /Core/Academic/Personal Website/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext
-make DESTDIR\= sitearchdir\=./.gem.20250925-24740-tm1jor sitelibdir\=./.gem.20250925-24740-tm1jor install
-/usr/bin/install -c -m 0755 rubyeventmachine.so ./.gem.20250925-24740-tm1jor
-/usr/bin/install: setting permissions for ‘./.gem.20250925-24740-tm1jor/rubyeventmachine.so’: Operation not permitted
-make: *** [Makefile:193: install-so] Error 1
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250925-35580-11quk0 sitelibdir\=./.gem.20250925-35580-11quk0 install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250925-35580-11quk0
 
-make install failed, exit code 2
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250925-35580-11quk0 sitelibdir\=./.gem.20250925-35580-11quk0 clean

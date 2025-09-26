@@ -1,20 +1,19 @@
-current directory: /Core/Academic/Personal Website/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 /usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
 creating Makefile
 
-current directory: /Core/Academic/Personal Website/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20250925-24740-da2jpi sitelibdir\=./.gem.20250925-24740-da2jpi clean
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250925-35580-l65fog sitelibdir\=./.gem.20250925-35580-l65fog clean
 
-current directory: /Core/Academic/Personal Website/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20250925-24740-da2jpi sitelibdir\=./.gem.20250925-24740-da2jpi
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250925-35580-l65fog sitelibdir\=./.gem.20250925-35580-l65fog
 compiling ruby_http_parser.c
 compiling ryah_http_parser.c
 linking shared-object ruby_http_parser.so
 
-current directory: /Core/Academic/Personal Website/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20250925-24740-da2jpi sitelibdir\=./.gem.20250925-24740-da2jpi install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20250925-24740-da2jpi
-/usr/bin/install: setting permissions for ‘./.gem.20250925-24740-da2jpi/ruby_http_parser.so’: Operation not permitted
-make: *** [Makefile:193: install-so] Error 1
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250925-35580-l65fog sitelibdir\=./.gem.20250925-35580-l65fog install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20250925-35580-l65fog
 
-make install failed, exit code 2
+current directory: /home/mohammed_elkoumy/Downloads/New Folder/academicpages.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20250925-35580-l65fog sitelibdir\=./.gem.20250925-35580-l65fog clean
