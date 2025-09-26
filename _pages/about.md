@@ -7,21 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am Mohammed El-Koumy a teaching and research Assistant at the Computer Engineering Department at Tanta University, specializing in Information Retrieval and Natural Language Processing.
-<ins>**I am actively seeking a PhD opportunity to conduct research on grounding and reasoning in LLMs, especially their interplay with knowledge graphs and semantic search.**</ins>
+I am Mohammed El-Koumy, a first-year Computer Science PhD candidate at Rensselaer Polytechnic Institute (RPI), conducting research under the supervision of Professor Yao Ma. My primary research focuses on knowledge graphs, large language models, and data valuation.
 
-I defended my Master's degree in November 2023,
-specializing in Information Retrieval and Question Answering, at the Computer Engineering Department of Tanta University.
-My research was supervised by Dr. [Moustafa F. Alzantot](https://scholar.google.com.eg/citations?user=AusbFkQAAAAJ&hl=en "Moustafa F. Alzantot")
-and Prof. [Amany Sarhan](https://scholar.google.com/citations?user=zonuuE0AAAAJ&hl=en "Amany Sarhan").
+I defended my Master’s degree in November 2023, specializing in Information Retrieval and Question Answering at the Computer Engineering Department of Tanta University. My research was supervised by Dr. Moustafa F. Alzantot and Prof. Amany Sarhan.
 
-My academic career began after completing my military service in October 2020.
-Prior to this, I graduated with honors from the same department in August 2018, ranking first in a cohort of over 160 students.
+My academic career began after completing my military service in October 2020. Prior to this, I graduated with honors from the same department in August 2018, ranking first among a cohort of more than 160 students.
 
-Over the short period of my career, I discovered a deep sense of fulfillment in sharing knowledge and guiding my students.
-I aspire to become a regionally renowned professor in this fast-growing area and to nurture the next generation of researchers from my community.
+During my previous career at my local university in Egypt, I found great fulfillment in sharing knowledge and mentoring students. I aspire to become a recognized scholar in this rapidly evolving field and to cultivate the next generation of researchers in my community.
 
-<div style="text-align: center;">
-  <img src="/images/thank white.gif" alt="Thanks animation" style="width: 50%;"> <br/>
-    Evolving 'Thank you' in Fourier spectral components 🔥!
-</div>
+<div style="text-align: center;"> <img src="/images/thank white.gif" alt="Thanks animation" style="width: 50%;"> <br/> Evolving 'Thank you' in Fourier spectral components 🔥! </div>
+
