@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Mohammed El-Koumy, a first-year Computer Science PhD candidate at
-<span style="display: inline-block; vertical-align: middle;">
+I am Mohammed El-Koumy, a first-year Computer Science PhD candidate at<span style="display: inline-block; vertical-align: middle;">
 <strong>Rensselaer Polytechnic Institute (RPI)</strong>
 <img src="/images/rpi-logo.png" alt="RPI Logo" style="height: 1.2em; margin: 0 0.3em;">
 </span>,
