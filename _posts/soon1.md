@@ -1,7 +1,7 @@
 Last week, I attended a webinar where a presenter, a personal coach, tried to use mathematical analogies involving physical quantities raised to powers. 
 While the intention was creative, it highlighted a widespread misunderstanding about using powers in physics equations.
 
-That equation he presented, with my all due respect, was something like:
+With my all due respect, the equation he presented was something like:
 $$Impact = (Experience+ BlaBla_1*BlaBla_2) ^ (Compassion)$$
 
 ---
