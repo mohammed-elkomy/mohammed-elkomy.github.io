@@ -19,10 +19,11 @@ My primary research focuses on:
 
 - Latent LLM Reasoning
 - GNNs and Data Valuation
-- Knowledge Graphs
 - Diffusion LLMs
+- ~~Knowledge Graphs QA~~
+- ~~Ranking-based Machine Reading Comprehension~~
 
-I defended my Master’s degree in late 2023, specializing in information retrieval and question answering at the Computer Engineering Department of [Tanta University](https://tanta.edu.eg/en/). My research was gratefully **co-supervised** by [Dr. Moustafa F. Alzantot](https://scholar.google.com/citations?user=AusbFkQAAAAJ&hl=en) and [Prof. Amany Sarhan](https://scholar.google.com/citations?user=zonuuE0AAAAJ&hl=en).
+I defended my Master’s degree in late 2023, specializing in information retrieval and machine reading comprehension at the Computer Engineering Department of [Tanta University](https://tanta.edu.eg/en/). My research was gratefully **co-supervised** by [Dr. Moustafa F. Alzantot](https://scholar.google.com/citations?user=AusbFkQAAAAJ&hl=en) and [Prof. Amany Sarhan](https://scholar.google.com/citations?user=zonuuE0AAAAJ&hl=en).
 
 My academic career began after completing my military service in October 2020 🫡. Prior to this, I graduated with honors in August 2018, ranking first among a cohort of more than 160 students in the Computer Engineering Department at Tanta University.
 
