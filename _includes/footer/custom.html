@@ -7,7 +7,7 @@
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
 
 <!-- Support for Plotly -->
-<script defer src='https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js'></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js'></script>
 
 <!-- Support for Mermaid -->
 <script type="module">
@@ -15,5 +15,14 @@
     mermaid.initialize({startOnLoad:true, theme:'default'});
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
+
+<div id="clustrmaps-container"
+     style="width: 250px; height: 250px; margin-top: 10px;">
+  <script
+    type="text/javascript"
+    id="clstr_globe"
+    src="https://clustrmaps.com/globe.js?d=IXZ3rfIgDxguWgsWXcG2F8-DBnqTrzP-4I5UHZ_tB00">
+  </script>
+</div>
 
 <!-- end custom footer snippets -->
